@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#header {
+background-color: #100c1b;
+height: 10vh;
+color: white;
+}
+
+#logo {
+  margin-top: 1%;
+  height: 50%;
+  width: 50%;
+}

@@ -4,7 +4,6 @@ describe("Landing page renders", () => {
   })
 
     it("successfully", () => {
-      cy.get("logo").should("be.visible")
-      cy.get("[data-cy=title]").should('contain', 'viaplay')
+      cy.get("#logo").should("be.visible")
     })
 })
