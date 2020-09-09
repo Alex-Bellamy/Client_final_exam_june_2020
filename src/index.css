@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #e6e3ee;
 }
 
 code {
@@ -23,3 +24,9 @@ color: white;
   height: 50%;
   width: 50%;
 }
+
+#footer {
+  background-color: #100c1b;
+  margin-top: 85vh;
+  height: 5vh;
+  }
