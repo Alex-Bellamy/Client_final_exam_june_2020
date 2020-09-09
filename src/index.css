@@ -30,3 +30,20 @@ color: white;
   margin-top: 85vh;
   height: 5vh;
   }
+
+  .display-show {
+    display: inline-block;
+    width: 23%;
+    width: calc(25% - ( ( 20px ) * 0.75 ) );
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.display-show:nth-child(4n+4) {
+    margin-right: 0;
+}
+
+.display-show img {
+    width: 100%;
+    height: auto;
+}

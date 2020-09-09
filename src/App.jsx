@@ -22,7 +22,7 @@ const App = () => {
   return (
     <div>
       <Header />
-      <div>{content}</div>
+      <div id="display-show" class="display-show">{content}</div>
       <Footer />
     </div>
   );
